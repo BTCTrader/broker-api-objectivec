@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EA6A58A5005F0C446DEAC93 /* libPods-BTCTurkApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28EAC34FC9A8F40B32D0FB5C /* libPods-BTCTurkApi.a */; };
+		E7D8BADB1B7AC1320066FC80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BADA1B7AC1320066FC80 /* main.m */; };
+		E7D8BADE1B7AC1320066FC80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BADD1B7AC1320066FC80 /* AppDelegate.m */; };
+		E7D8BAE11B7AC1320066FC80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BAE01B7AC1320066FC80 /* ViewController.m */; };
+		E7D8BAE41B7AC1320066FC80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D8BAE21B7AC1320066FC80 /* Main.storyboard */; };
+		E7D8BAE61B7AC1320066FC80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D8BAE51B7AC1320066FC80 /* Images.xcassets */; };
+		E7D8BAE91B7AC1320066FC80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7D8BAE71B7AC1320066FC80 /* LaunchScreen.xib */; };
+		E7D8BAF51B7AC1320066FC80 /* BTCTurkApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BAF41B7AC1320066FC80 /* BTCTurkApiTests.m */; };
+		E7D8BB131B7AC2980066FC80 /* BTCApiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB001B7AC2980066FC80 /* BTCApiConstants.m */; };
+		E7D8BB141B7AC2980066FC80 /* BTCRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB021B7AC2980066FC80 /* BTCRequestSerializer.m */; };
+		E7D8BB151B7AC2980066FC80 /* BTCTraderApi.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB041B7AC2980066FC80 /* BTCTraderApi.m */; };
+		E7D8BB161B7AC2980066FC80 /* BTCAccountBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB071B7AC2980066FC80 /* BTCAccountBalance.m */; };
+		E7D8BB171B7AC2980066FC80 /* BTCOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB0A1B7AC2980066FC80 /* BTCOrder.m */; };
+		E7D8BB181B7AC2980066FC80 /* BTCOrderBook.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB0C1B7AC2980066FC80 /* BTCOrderBook.m */; };
+		E7D8BB191B7AC2980066FC80 /* BTCTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB0E1B7AC2980066FC80 /* BTCTicker.m */; };
+		E7D8BB1A1B7AC2980066FC80 /* BTCTrade.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB101B7AC2980066FC80 /* BTCTrade.m */; };
+		E7D8BB1B1B7AC2980066FC80 /* BTCTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB121B7AC2980066FC80 /* BTCTransaction.m */; };
+		E7D8BB1F1B7AC5010066FC80 /* BTCTurkApi.m in Sources */ = {isa = PBXBuildFile; fileRef = E7D8BB1E1B7AC5010066FC80 /* BTCTurkApi.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7D8BAEF1B7AC1320066FC80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7D8BACD1B7AC1320066FC80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7D8BAD41B7AC1320066FC80;
+			remoteInfo = BTCTurkApi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22240DF348C0743462E19274 /* Pods-BTCTurkApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCTurkApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BTCTurkApi/Pods-BTCTurkApi.debug.xcconfig"; sourceTree = "<group>"; };
+		28EAC34FC9A8F40B32D0FB5C /* libPods-BTCTurkApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BTCTurkApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FA6C57C806D28DFB827C05 /* Pods-BTCTurkApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BTCTurkApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-BTCTurkApi/Pods-BTCTurkApi.release.xcconfig"; sourceTree = "<group>"; };
+		E7D8BAD51B7AC1320066FC80 /* BTCTurkApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BTCTurkApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D8BAD91B7AC1320066FC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8BADA1B7AC1320066FC80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7D8BADC1B7AC1320066FC80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7D8BADD1B7AC1320066FC80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7D8BADF1B7AC1320066FC80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7D8BAE01B7AC1320066FC80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7D8BAE31B7AC1320066FC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7D8BAE51B7AC1320066FC80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E7D8BAE81B7AC1320066FC80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E7D8BAEE1B7AC1320066FC80 /* BTCTurkApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTCTurkApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7D8BAF31B7AC1320066FC80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7D8BAF41B7AC1320066FC80 /* BTCTurkApiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTCTurkApiTests.m; sourceTree = "<group>"; };
+		E7D8BAFF1B7AC2980066FC80 /* BTCApiConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCApiConstants.h; sourceTree = "<group>"; };
+		E7D8BB001B7AC2980066FC80 /* BTCApiConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCApiConstants.m; sourceTree = "<group>"; };
+		E7D8BB011B7AC2980066FC80 /* BTCRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCRequestSerializer.h; sourceTree = "<group>"; };
+		E7D8BB021B7AC2980066FC80 /* BTCRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCRequestSerializer.m; sourceTree = "<group>"; };
+		E7D8BB031B7AC2980066FC80 /* BTCTraderApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCTraderApi.h; sourceTree = "<group>"; };
+		E7D8BB041B7AC2980066FC80 /* BTCTraderApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCTraderApi.m; sourceTree = "<group>"; };
+		E7D8BB061B7AC2980066FC80 /* BTCAccountBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCAccountBalance.h; sourceTree = "<group>"; };
+		E7D8BB071B7AC2980066FC80 /* BTCAccountBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCAccountBalance.m; sourceTree = "<group>"; };
+		E7D8BB081B7AC2980066FC80 /* BTCModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCModels.h; sourceTree = "<group>"; };
+		E7D8BB091B7AC2980066FC80 /* BTCOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCOrder.h; sourceTree = "<group>"; };
+		E7D8BB0A1B7AC2980066FC80 /* BTCOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCOrder.m; sourceTree = "<group>"; };
+		E7D8BB0B1B7AC2980066FC80 /* BTCOrderBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCOrderBook.h; sourceTree = "<group>"; };
+		E7D8BB0C1B7AC2980066FC80 /* BTCOrderBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCOrderBook.m; sourceTree = "<group>"; };
+		E7D8BB0D1B7AC2980066FC80 /* BTCTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCTicker.h; sourceTree = "<group>"; };
+		E7D8BB0E1B7AC2980066FC80 /* BTCTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCTicker.m; sourceTree = "<group>"; };
+		E7D8BB0F1B7AC2980066FC80 /* BTCTrade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCTrade.h; sourceTree = "<group>"; };
+		E7D8BB101B7AC2980066FC80 /* BTCTrade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCTrade.m; sourceTree = "<group>"; };
+		E7D8BB111B7AC2980066FC80 /* BTCTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCTransaction.h; sourceTree = "<group>"; };
+		E7D8BB121B7AC2980066FC80 /* BTCTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCTransaction.m; sourceTree = "<group>"; };
+		E7D8BB1D1B7AC5010066FC80 /* BTCTurkApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTCTurkApi.h; sourceTree = "<group>"; };
+		E7D8BB1E1B7AC5010066FC80 /* BTCTurkApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTCTurkApi.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7D8BAD21B7AC1320066FC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA6A58A5005F0C446DEAC93 /* libPods-BTCTurkApi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8BAEB1B7AC1320066FC80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A304E96F13794F447C6E0B8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22240DF348C0743462E19274 /* Pods-BTCTurkApi.debug.xcconfig */,
+				87FA6C57C806D28DFB827C05 /* Pods-BTCTurkApi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E2DAB513DCDF150CFEA36152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28EAC34FC9A8F40B32D0FB5C /* libPods-BTCTurkApi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7D8BACC1B7AC1320066FC80 = {
+			isa = PBXGroup;
+			children = (
+				E7D8BAD71B7AC1320066FC80 /* BTCTurkApi */,
+				E7D8BAF11B7AC1320066FC80 /* BTCTurkApiTests */,
+				E7D8BAD61B7AC1320066FC80 /* Products */,
+				A304E96F13794F447C6E0B8E /* Pods */,
+				E2DAB513DCDF150CFEA36152 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E7D8BAD61B7AC1320066FC80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BAD51B7AC1320066FC80 /* BTCTurkApi.app */,
+				E7D8BAEE1B7AC1320066FC80 /* BTCTurkApiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7D8BAD71B7AC1320066FC80 /* BTCTurkApi */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BADC1B7AC1320066FC80 /* AppDelegate.h */,
+				E7D8BADD1B7AC1320066FC80 /* AppDelegate.m */,
+				E7D8BB1C1B7AC4CC0066FC80 /* BTCTurkApi */,
+				E7D8BAFE1B7AC2980066FC80 /* BTCTraderApi */,
+				E7D8BADF1B7AC1320066FC80 /* ViewController.h */,
+				E7D8BAE01B7AC1320066FC80 /* ViewController.m */,
+				E7D8BAE21B7AC1320066FC80 /* Main.storyboard */,
+				E7D8BAE51B7AC1320066FC80 /* Images.xcassets */,
+				E7D8BAE71B7AC1320066FC80 /* LaunchScreen.xib */,
+				E7D8BAD81B7AC1320066FC80 /* Supporting Files */,
+			);
+			path = BTCTurkApi;
+			sourceTree = "<group>";
+		};
+		E7D8BAD81B7AC1320066FC80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BAD91B7AC1320066FC80 /* Info.plist */,
+				E7D8BADA1B7AC1320066FC80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7D8BAF11B7AC1320066FC80 /* BTCTurkApiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BAF41B7AC1320066FC80 /* BTCTurkApiTests.m */,
+				E7D8BAF21B7AC1320066FC80 /* Supporting Files */,
+			);
+			path = BTCTurkApiTests;
+			sourceTree = "<group>";
+		};
+		E7D8BAF21B7AC1320066FC80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BAF31B7AC1320066FC80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7D8BAFE1B7AC2980066FC80 /* BTCTraderApi */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BAFF1B7AC2980066FC80 /* BTCApiConstants.h */,
+				E7D8BB001B7AC2980066FC80 /* BTCApiConstants.m */,
+				E7D8BB011B7AC2980066FC80 /* BTCRequestSerializer.h */,
+				E7D8BB021B7AC2980066FC80 /* BTCRequestSerializer.m */,
+				E7D8BB031B7AC2980066FC80 /* BTCTraderApi.h */,
+				E7D8BB041B7AC2980066FC80 /* BTCTraderApi.m */,
+				E7D8BB051B7AC2980066FC80 /* Models */,
+			);
+			name = BTCTraderApi;
+			path = ../../../BTCTraderApi;
+			sourceTree = "<group>";
+		};
+		E7D8BB051B7AC2980066FC80 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BB061B7AC2980066FC80 /* BTCAccountBalance.h */,
+				E7D8BB071B7AC2980066FC80 /* BTCAccountBalance.m */,
+				E7D8BB081B7AC2980066FC80 /* BTCModels.h */,
+				E7D8BB091B7AC2980066FC80 /* BTCOrder.h */,
+				E7D8BB0A1B7AC2980066FC80 /* BTCOrder.m */,
+				E7D8BB0B1B7AC2980066FC80 /* BTCOrderBook.h */,
+				E7D8BB0C1B7AC2980066FC80 /* BTCOrderBook.m */,
+				E7D8BB0D1B7AC2980066FC80 /* BTCTicker.h */,
+				E7D8BB0E1B7AC2980066FC80 /* BTCTicker.m */,
+				E7D8BB0F1B7AC2980066FC80 /* BTCTrade.h */,
+				E7D8BB101B7AC2980066FC80 /* BTCTrade.m */,
+				E7D8BB111B7AC2980066FC80 /* BTCTransaction.h */,
+				E7D8BB121B7AC2980066FC80 /* BTCTransaction.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E7D8BB1C1B7AC4CC0066FC80 /* BTCTurkApi */ = {
+			isa = PBXGroup;
+			children = (
+				E7D8BB1D1B7AC5010066FC80 /* BTCTurkApi.h */,
+				E7D8BB1E1B7AC5010066FC80 /* BTCTurkApi.m */,
+			);
+			name = BTCTurkApi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7D8BAD41B7AC1320066FC80 /* BTCTurkApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D8BAF81B7AC1320066FC80 /* Build configuration list for PBXNativeTarget "BTCTurkApi" */;
+			buildPhases = (
+				1CB794AD277D69886FB7CDC7 /* Check Pods Manifest.lock */,
+				E7D8BAD11B7AC1320066FC80 /* Sources */,
+				E7D8BAD21B7AC1320066FC80 /* Frameworks */,
+				E7D8BAD31B7AC1320066FC80 /* Resources */,
+				0475F8F8241B7A4654E91326 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTCTurkApi;
+			productName = BTCTurkApi;
+			productReference = E7D8BAD51B7AC1320066FC80 /* BTCTurkApi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7D8BAED1B7AC1320066FC80 /* BTCTurkApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7D8BAFB1B7AC1320066FC80 /* Build configuration list for PBXNativeTarget "BTCTurkApiTests" */;
+			buildPhases = (
+				E7D8BAEA1B7AC1320066FC80 /* Sources */,
+				E7D8BAEB1B7AC1320066FC80 /* Frameworks */,
+				E7D8BAEC1B7AC1320066FC80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D8BAF01B7AC1320066FC80 /* PBXTargetDependency */,
+			);
+			name = BTCTurkApiTests;
+			productName = BTCTurkApiTests;
+			productReference = E7D8BAEE1B7AC1320066FC80 /* BTCTurkApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7D8BACD1B7AC1320066FC80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = BTCTrader;
+				TargetAttributes = {
+					E7D8BAD41B7AC1320066FC80 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E7D8BAED1B7AC1320066FC80 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E7D8BAD41B7AC1320066FC80;
+					};
+				};
+			};
+			buildConfigurationList = E7D8BAD01B7AC1320066FC80 /* Build configuration list for PBXProject "BTCTurkApi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7D8BACC1B7AC1320066FC80;
+			productRefGroup = E7D8BAD61B7AC1320066FC80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7D8BAD41B7AC1320066FC80 /* BTCTurkApi */,
+				E7D8BAED1B7AC1320066FC80 /* BTCTurkApiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7D8BAD31B7AC1320066FC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8BAE41B7AC1320066FC80 /* Main.storyboard in Resources */,
+				E7D8BAE91B7AC1320066FC80 /* LaunchScreen.xib in Resources */,
+				E7D8BAE61B7AC1320066FC80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8BAEC1B7AC1320066FC80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0475F8F8241B7A4654E91326 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BTCTurkApi/Pods-BTCTurkApi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB794AD277D69886FB7CDC7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7D8BAD11B7AC1320066FC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8BB1A1B7AC2980066FC80 /* BTCTrade.m in Sources */,
+				E7D8BB151B7AC2980066FC80 /* BTCTraderApi.m in Sources */,
+				E7D8BB1F1B7AC5010066FC80 /* BTCTurkApi.m in Sources */,
+				E7D8BB131B7AC2980066FC80 /* BTCApiConstants.m in Sources */,
+				E7D8BB171B7AC2980066FC80 /* BTCOrder.m in Sources */,
+				E7D8BAE11B7AC1320066FC80 /* ViewController.m in Sources */,
+				E7D8BB181B7AC2980066FC80 /* BTCOrderBook.m in Sources */,
+				E7D8BB1B1B7AC2980066FC80 /* BTCTransaction.m in Sources */,
+				E7D8BADE1B7AC1320066FC80 /* AppDelegate.m in Sources */,
+				E7D8BB161B7AC2980066FC80 /* BTCAccountBalance.m in Sources */,
+				E7D8BB141B7AC2980066FC80 /* BTCRequestSerializer.m in Sources */,
+				E7D8BADB1B7AC1320066FC80 /* main.m in Sources */,
+				E7D8BB191B7AC2980066FC80 /* BTCTicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D8BAEA1B7AC1320066FC80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7D8BAF51B7AC1320066FC80 /* BTCTurkApiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7D8BAF01B7AC1320066FC80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7D8BAD41B7AC1320066FC80 /* BTCTurkApi */;
+			targetProxy = E7D8BAEF1B7AC1320066FC80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7D8BAE21B7AC1320066FC80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D8BAE31B7AC1320066FC80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7D8BAE71B7AC1320066FC80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7D8BAE81B7AC1320066FC80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7D8BAF61B7AC1320066FC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7D8BAF71B7AC1320066FC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7D8BAF91B7AC1320066FC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22240DF348C0743462E19274 /* Pods-BTCTurkApi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BTCTurkApi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7D8BAFA1B7AC1320066FC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87FA6C57C806D28DFB827C05 /* Pods-BTCTurkApi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BTCTurkApi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7D8BAFC1B7AC1320066FC80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BTCTurkApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCTurkApi.app/BTCTurkApi";
+			};
+			name = Debug;
+		};
+		E7D8BAFD1B7AC1320066FC80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BTCTurkApiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BTCTurkApi.app/BTCTurkApi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7D8BAD01B7AC1320066FC80 /* Build configuration list for PBXProject "BTCTurkApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8BAF61B7AC1320066FC80 /* Debug */,
+				E7D8BAF71B7AC1320066FC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D8BAF81B7AC1320066FC80 /* Build configuration list for PBXNativeTarget "BTCTurkApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8BAF91B7AC1320066FC80 /* Debug */,
+				E7D8BAFA1B7AC1320066FC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7D8BAFB1B7AC1320066FC80 /* Build configuration list for PBXNativeTarget "BTCTurkApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7D8BAFC1B7AC1320066FC80 /* Debug */,
+				E7D8BAFD1B7AC1320066FC80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7D8BACD1B7AC1320066FC80 /* Project object */;
+}
